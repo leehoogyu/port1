@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+
+.article .title li { display:inline-block; }
+.article .title li a { display:block;
+    padding:10px 20px; background:#32B67A;
+    color:#fff; border-radius:5px; margin-top: 100px;
+}
+.article .cont { overflow:hidden; margin:20px 0 50px}
+.article .cont img { float:left; width:25%; padding:10px }
+.article .cont img.ctive {
+    animation:zoomIn 0.5s both;
+}

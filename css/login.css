@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+legend { display:none }
+
+#section{ height: 100vh;}
+.loginBox { padding-top:80px; padding-bottom:80px }
+.loginBox h2 { font-size:30px; padding:40px; margin-top: 50px;}
+.loginBox .outer {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 67px 0;
+    text-align: center;
+}
+
+.loginBox .outer div { display: inline-block; vertical-align: middle;}
+.loginBox .outer label {display: inline-block; width: 70px; text-align: left; vertical-align: middle;}
+.loginBox .outer input{ width: 200px; height: 35px; vertical-align: middle;}
+.loginBox .outer p {margin: 10px 0;}
+.loginBox .outer button { width:100px; height: 80px; vertical-align: middle;
+background:#32B67A; color: #fff; font-size: 20px; border: none; border-radius: 5px;
+cursor: pointer;} 
